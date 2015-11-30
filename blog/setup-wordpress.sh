@@ -55,9 +55,9 @@ echo "define('DB_HOST', '${DB_HOST}');"  >> wp-config.php
 echo "define('WP_SITEURL', '${WP_URL}');" >> wp-config.php
 echo "define('WP_HOME', '${WP_URL}');" >> wp-config.php
 echo "define('WP_NAVBAR_VIEW', dirname(__FILE__) . '/../views/layout/navbar.php');" >> wp-config.php
-echo "define('WP_NAVBAR_CSS', '${WP_URL}../css/navbar.css');" >> wp-config.php
+echo "define('WP_NAVBAR_CSS', '${WP_URL}/css/navbar.css');" >> wp-config.php
 echo "define('WP_FOOTER_VIEW', dirname(__FILE__) . '/../views/layout/footer.php');" >> wp-config.php
-echo "define('WP_FOOTER_CSS', '${WP_URL}../css/footer.css');" >> wp-config.php
+echo "define('WP_FOOTER_CSS', '${WP_URL}/css/footer.css');" >> wp-config.php
 echo "require_once(ABSPATH . 'wp-settings.php');" >> wp-config.php
 
 mkdir wp-content/uploads
